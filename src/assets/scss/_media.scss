@@ -1,0 +1,7 @@
+@media (max-width: 576px) {
+	.form__labels-wrapper {
+		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+		grid-column-gap: 30px;
+		grid-row-gap: 40px;
+	}
+}

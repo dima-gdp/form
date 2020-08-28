@@ -1,0 +1,10 @@
+$font-family: 'Arial', sans-serif;
+$minwidth: 320px;
+$error: #f57f6c;
+$dark: #2f3640;
+$grey: #737373;
+$white: #f5f6fa;
+
+@function vw($value, $base: 1920) {
+	@return $value / $base * 100vw;
+}
